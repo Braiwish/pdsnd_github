@@ -3,13 +3,13 @@
 ### Date created
 10 Feb 2025
 
-### BikeShare
+### BikeShare Project 2025
 
 ### Description
 A project to analyize bike data in 3 major cities, routes, duration and dates
 
 ### Files used
-`Chicago.csv` , `new_york_city.csv` and `washingtone.csv`
+`Chicago.csv` , `new_york_city.csv` and `washingtone.csv` as __data source__ for the `project`
 
 ### Credits
 Thanks for **Udacity**
