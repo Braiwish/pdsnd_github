@@ -33,7 +33,7 @@ def get_filters():
             break
         print("Invalid day. Please try again.")
 
-    print("-" * 40)
+    print("-" * 20)
     return city, month, day
 
 
@@ -67,7 +67,7 @@ def time_stats(df):
     start_time = time.time()
 
     if df.empty:
-        print("No data available for the selected filters.")
+        print("No data :) available for the selected filters.")
         return
 
     common_month = df["month"].mode()[0]
@@ -79,11 +79,11 @@ def time_stats(df):
     common_hour = df["hour"].mode()[0]
     print(f"Most common hour: {common_hour}:00")
 
-    print("-" * 40)
+    print("-" * 30)
 
 
 def station_stats(df):
-    """Display statistics on the most popular stations and trip."""
+    """Statistics on the most popular stations and trip."""
     print("\nCalculating The Most Popular Stations and Trip...\n")
     start_time = time.time()
 
